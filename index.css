@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: 'doppio_oneregular';
+    src: url('/fonts/Doppio_One/doppioone-regular-webfont.woff2') format('woff2'), url('/fonts/Doppio_One/doppioone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 2vw;
+}
+
+body {
+    height: 150vw;
+    width: auto;
+    background-color: #BF00FF;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 95vw;
+    margin-right: 4vw;
+    /* background-color: black; */
+}
+
+.description {
+    /* background-color: black; */
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vw;
+    width: 75vw;
+    justify-content: center;
+}
+
+.social_buttons {
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+}
+
+.social_buttons button {
+    width: 75vw;
+    height: 22vw;
+    /* padding: 5vw; */
+    margin-top: 4vw;
+    border: 2vw solid;
+    border-radius: 9vw;
+    color: white;
+    border-color: #5200BA;
+    background-color: #C9A2FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    font-weight: 700;
+}
+
+.YouTubeLogo {
+    width: 15vw;
+    margin-right: 4vw;
+}
+
+.BeatStarsLogo {
+    width: 15vw;
+    margin-right: 3vw;
+}
+
+.TikTokLogo {
+    width: 15vw;
+    margin-right: 3vw;
+}
+
+.YouTubeButton:focus {
+    background-color: #5200BA;
+    border-color: #C9A2FF;
+    /* width: 90vw; */
+    height: 35vw;
+    transition: 1s ease-in-out;
+}
+
+.BeatStarsButton:focus {
+    background-color: #5200BA;
+    border-color: #C9A2FF;
+    /* width: 90vw; */
+    height: 35vw;
+    transition: 1s ease-in-out;
+}
+
+.TikTokButton:focus {
+    background-color: #5200BA;
+    border-color: #C9A2FF;
+    /* width: 90vw; */
+    height: 35vw;
+    transition: 1s ease-in-out;
+}
