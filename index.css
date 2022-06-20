@@ -33,9 +33,26 @@ body {
     align-items: center;
 }
 
-.logo {
-    width: 95vw;
-    margin-right: 4vw;
+.title {
+    color: white;
+    font-size: 15vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+.logo_and_title {
+    height: 90vw;
+    /* margin-top: 5vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_and_title img {
+    width: 45vw;
+    border: solid #5200BA;
+    border-radius: 100vw;
     /* background-color: black; */
 }
 
